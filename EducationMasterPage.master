@@ -1,0 +1,130 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="EducationMasterPage.master.cs" Inherits="EducationMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+  
+   <link rel="icon" href="images/1.png" type="image/png">
+		<title>Directorate of Education</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<meta name="keywords" content="Directorate of Education, Scholership DNH" />
+		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'/>
+		<link rel="stylesheet" href="css/responsiveslides.css"/>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
+		  <script>
+		      // You can also use "$(window).load(function() {"
+		      $(function () {
+
+		          // Slideshow 1
+		          $("#slider1").responsiveSlides({
+		              maxwidth: 1600,
+		              speed: 600
+		          });
+		      });
+		  </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <!---start-header---->
+			<div class="header">
+				<div class="wrap">
+				<!---start-logo---->
+				<div class="logo">
+					<a href="Home.html"><table><tr><td style="text-align:center; vertical-align:top"><img src="images/emb.png" height="70" width="40" title="logo" /></td><td style="text-align:center; vertical-align:middle"><h2 style="font-family:'Ropa Sans'; font-size:32px; color:Black">Directorate of Education</h2>
+                    <span style="font-family:'Ropa Sans'; font-size:16px; color:Black">Dadra and Nagar Haveli</span></td></tr></table> 
+                    </a>
+				</div>
+				<!---end-logo---->
+				<!---start-search---->
+				<div class="top-search-bar">
+					<div class="header-top-nav">
+						<ul>
+							<li><a href="#"><img src="images/marker1.png" title="livehelp" />Help : 0260-2630792</a></li>
+							<li><a href="#"><img src="images/marker1.png" title="Bal Swasthya Report" />Bal Swasthya Report</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="clear"> </div>
+				</div>
+			</div>
+				<div class="clear"> </div>
+				<div class="header-nav">
+					<div class="wrap">
+					<div class="left-nav">
+						<ul>
+							<li class="active"><a href="Home.html">Home</a></li>
+							<li><a href="#">About </a>
+                                <ul>
+                                    <li><a href="AboutUs.aspx">About Us</a></li>
+                                    <li><a href="AboutDNH.aspx">About DNH</a></li>
+                                    <li><a href="VisionMission.aspx">Vision & Mission</a></li>
+                                    <li><a href="#">Organogram</a></li>
+                                </ul>
+                            </li>
+							<li><a href="#">Act & Rules</a>
+                                <ul>
+                                    <li><a href="Acts.aspx">Acts</a></li>
+                                    <li><a href="Rules.aspx">Rules</a></li>
+                                    <li><a href="ActsRules.aspx">Acts & Rules</a></li>
+                                </ul>
+                            </li>
+							<li><a href="#">Schemes</a>
+                                <ul>
+                                    <li><a href="SamagraShiksha.aspx">Samagra Shiksha</a></li>
+                                    <li><a href="#">UDISE</a></li>
+                                    <li><a href="#">Scholerships</a></li>
+                                </ul>
+                            </li>
+							<li><a href="Schools1.aspx">Schools</a></li>
+                            <li><a href="#">Services</a>
+                                <ul>
+                                    <li><a href="#">Recognition of School</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a href="ContactUs.aspx">Contact</a></li>
+						</ul>
+					</div>
+					<div class="right-social-icons">
+						<ul>
+							
+							<li><a class="icon2" href="#"> </a></li>
+							<li><a class="icon3" href="#"> </a></li>
+							    
+						</ul>
+					</div>
+					<div class="clear"> </div>
+				</div>
+				<!---start-search---->
+			</div>
+			<!---end-header---->
+			<!--start-image-slider---->
+			
+ <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+					<div class="footer"> 
+						<div class="wrap"> 
+						<div class="footer-left">
+							<ul>
+							
+								<li><a href="#">Design and Developed by : Dadra and Nagar Haveli -Governance Society</a></li>
+								
+							</ul>
+						</div>
+						<div class="footer-right">
+							<p>Content Coordinator : Directorate of Education, DNH</p>
+						</div>
+						<div class=="clear"> </div>
+					</div>
+					<div class="clear"> </div>
+		<!---end-wrap---->
+		</div>
+       
+    </div>
+    </form>
+</body>
+</html>
